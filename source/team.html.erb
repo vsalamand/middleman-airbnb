@@ -1,0 +1,19 @@
+---
+title: Le Wagon - Middleman - Team
+---
+
+<div id="team">
+    <div class="about-content">
+    <h1>This template was built with <i class="fa fa-heart"></i> by</h1>
+    <ul class="list-inline text-center">
+      <% ["vsalamand", "VincentFeildel"].each do |gh_username| %>
+        <li>
+          <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{gh_username}", class: "img-circle" %>
+          <h3><i class="fa fa-github"></i> <%= gh_username %></h3>
+        </li>
+      <% end %>
+    </ul>
+    </div>
+
+</div>
+
